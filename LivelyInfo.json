@@ -1,0 +1,23 @@
+{
+  "AppVersion": "2.2.1.0",
+  "Title": "Sudoku",
+  "Thumbnail": "thumbnail.jpg",
+  "Preview": "preview.gif",
+  "Desc": "A sudoku engraved on nine dark plates: click a cell and a ring of digits opens around it, while the cursor warms whatever it passes over.",
+  "Author": "Dre",
+  "License": "",
+  "Contact": "",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": "",
+  "IsAbsolutePath": false,
+  "Id": "sudoku",
+  "Tags": [
+    "sudoku",
+    "puzzle",
+    "interactive",
+    "dark",
+    "minimal"
+  ],
+  "Version": 1
+}

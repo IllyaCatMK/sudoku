@@ -1,0 +1,72 @@
+{
+  "labelGioco": {
+    "type": "label",
+    "value": "Game"
+  },
+  "difficolta": {
+    "type": "dropdown",
+    "value": 1,
+    "items": [
+      "Easy",
+      "Medium",
+      "Hard"
+    ],
+    "text": "Difficulty",
+    "help": "Measured by the technique the puzzle actually needs, not by how many numbers are printed. Easy solves with obvious moves, Medium needs locked candidates or pairs, Hard needs more than that. Changing this starts a new grid."
+  },
+  "nuovaPartita": {
+    "type": "button",
+    "value": "New grid",
+    "text": "New grid",
+    "help": "Builds a fresh puzzle at the difficulty above. Every grid is generated on the spot and always has exactly one solution."
+  },
+  "cancellaTutto": {
+    "type": "button",
+    "value": "Clear my numbers",
+    "text": "Clear my numbers",
+    "help": "Wipes what you wrote and restarts the clock. The printed numbers stay."
+  },
+  "mostraAiuti": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Flag clashing numbers",
+    "help": "Turns a number red when it repeats in its row, column or box, and flashes the numbers it clashes with."
+  },
+  "labelAspetto": {
+    "type": "label",
+    "value": "Look"
+  },
+  "dimensioneGriglia": {
+    "type": "slider",
+    "value": 66,
+    "min": 40,
+    "max": 85,
+    "step": 1,
+    "text": "Grid size",
+    "help": "Share of the shorter screen side taken by the grid."
+  },
+  "spazioBasso": {
+    "type": "slider",
+    "value": 120,
+    "min": 0,
+    "max": 220,
+    "step": 4,
+    "text": "Room for the taskbar",
+    "help": "Pixels kept free along the bottom edge so the taskbar does not cover the control bar. The grid is centred in what is left. Set 0 if your taskbar hides itself, raise it on a scaled display."
+  },
+  "raggioLuce": {
+    "type": "slider",
+    "value": 60,
+    "min": 20,
+    "max": 110,
+    "step": 1,
+    "text": "Cursor glow",
+    "help": "How far the warm halo around the cursor reaches. When the mouse rests, the halo drifts on its own."
+  },
+  "mostraBarra": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Show the control bar on the desktop",
+    "help": "The faint row at the bottom of the screen. Turn it off to keep the desktop clean and use this panel instead."
+  }
+}
